@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.product-container{
+    width:90%;
+    border: 2px solid black;
+    margin:0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    overflow:hidden;
+    margin: 20px 15px;
+    width: calc(25% - 30px - 2px);
+    height: 330px;
+    text-align: center;
+    border: 1px solid green;
+    
+}
+body{
+    margin: 0px;
+}
+.product-image{
+    width:100%;
+    height:150px;
+}
+.btn{
+	text-decoration: none;
+	font-size: 30px;
+	color: wheat;
+	background-color: blue;
+}

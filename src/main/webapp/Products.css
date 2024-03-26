@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+.product-container{
+    width:100%;
+    border: 2px solid black;
+    margin:0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    overflow:hidden;
+    margin: 20px 15px;
+    width: calc(30% - 10px - 2px);
+    height: 350px;
+    text-align: center;
+    border: 1px solid green;
+    
+}
+body{
+    margin: 0px;
+}
+.product-image{
+    width:100%;
+    height:150px;
+}
+.buyNow{
+	text-decoration: none;
+	font-size: 30px;
+	color: wheat;
+	background-color: blue;
+}
+
+
